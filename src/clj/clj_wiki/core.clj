@@ -53,11 +53,10 @@
       (mount/start #'clj-wiki.config/env)
       (migrations/init (select-keys env [:database-url :init-script]))
       (System/exit 0))
-    (some #{"migrate" "rollback"} args)
+    (migrations/migration? args)
     (do
       (mount/start #'clj-wiki.config/env)
       (migrations/migrate args (select-keys env [:database-url]))
       (System/exit 0))
     :else
     (start-app args)))
-  
