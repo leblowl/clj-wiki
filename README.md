@@ -1,8 +1,8 @@
 # clj-wiki
 
-generated using Luminus version "2.9.12.22"
+Ideas for this project:
 
-FIXME
+Wiki/collaboration tool for viewing/editing/contributing/learning about new legislation in local government. Just the other day someone posted a Change.org petition that encouraged me to support a few pieces of legislation. I would have liked to cast my vote, however I couldn't understand the details of the proposed bills. It would be nice to have a platform for more open collaboration and learning regarding legislation.
 
 ## Prerequisites
 
